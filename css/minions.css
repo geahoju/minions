@@ -34,7 +34,7 @@ body {
 }
 
 .minions {
-    height: 200px;
+    height: 180px;
     transition-property: transform;
     transition-duration: 1.2s;
     transition-timing-function: ease-out;}
@@ -48,14 +48,14 @@ body {
 }
 
 .container:hover .minions{
-    transform: translate(80px, 80px) rotate(2.12turn) scale(1.5);
+    transform: translate(-100px, -100px) rotate(2.12turn) scale(1.5);
 }
 .container:hover .inho{
-    transform: translate(120px, 150px) rotate(2.12turn) scale(2);
+    transform: translate(240px, 80px) rotate(2.12turn) scale(2);
 }
 .container:hover .name{
     
-    transform: translate(450px, 500px) rotate(0.85turn) scale(1.3);
+    transform: translate(280px, 500px) rotate(0.85turn) scale(1.3);
 }
 .container:hover .des{
     transform: translate(150px, 100px) rotate(0.1turn) ;
@@ -71,7 +71,7 @@ body {
 }
 
 .container .minions:hover{
-    transform: translate(-150px, -150px) rotate(0.12turn) scale(0);   
+    transform: translate(-450px, -450px) rotate(0.12turn) scale(0);   
 
 }
 .container .inho:hover{
