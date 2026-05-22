@@ -8,61 +8,57 @@ body {
 }
 
 .container {
-    /* background-color: aqua; */
     color: white;
-    margin-top: 50px;
-    margin-left: 50px;
+    margin-top: 30px;
+    margin-left: 30px;
     
     
 }
 
 .name {
-    width: 300px;
-    font-size: 60px;
+    width: 250px;
+    font-size: 50px;
     transition-property: transform;
     transition-duration: 1s;
     transition-timing-function: ease-out;
 }
 
 .des {
-    width: 600px;
-    font-size: 18px;
+    width: 500px;
+    font-size: 15px;
     line-height: 1.5;
-    margin: 20px 0;
+    margin: 8px 0;
     transition-property: transform;
-transition-duration: 1s;
-transition-timing-function: ease-out;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
 }
 
 .minions {
-    /* background-color: rgb(78, 78, 126); */
-    height: 300px;
-transition-property: transform;
-transition-duration: 1.2s;
-transition-timing-function: ease-out;}
+    height: 250px;
+    transition-property: transform;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-out;}
 
 
 .inho {
-    /* background-color: rgb(78, 78, 126); */
-
     height: 300px;
-transition-property: transform;
-transition-duration: 1.2s;
-transition-timing-function: ease-out;
+    transition-property: transform;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-out;
 }
 
 .container:hover .minions{
-    transform: translate(250px, 250px) rotate(2.12turn) scale(1.75);
+    transform: translate(100px, 100px) rotate(2.12turn) scale(1.5);
 }
 .container:hover .inho{
-    transform: translate(350px, 350px) rotate(2.12turn) scale(2.5);
+    transform: translate(250px, 250px) rotate(2.12turn) scale(2);
 }
 .container:hover .name{
     
-    transform: translate(490px, 690px) rotate(0.85turn) scale(1.3);
+    transform: translate(300px, 500px) rotate(0.85turn) scale(1.3);
 }
 .container:hover .des{
-    transform: translate(250px, 200px) rotate(0.1turn) ;
+    transform: translate(150px, 100px) rotate(0.1turn) ;
 }
 
 .name:hover{
@@ -75,10 +71,10 @@ transition-timing-function: ease-out;
 }
 
 .container .minions:hover{
-    transform: translate(-250px, -250px) rotate(0.12turn) scale(0);   
+    transform: translate(-150px, -150px) rotate(0.12turn) scale(0);   
 
 }
 .container .inho:hover{
-    transform: translate(650px, -650px) rotate(0.12turn) scale(0);   
+    transform: translate(550px, -650px) rotate(0.12turn) scale(0);   
 
 }
